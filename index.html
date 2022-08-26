@@ -4,27 +4,32 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bootstrap demo</title>
+    <link href="style.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/79060c6c4e.js" crossorigin="anonymous"></script>
   </head>
   <body>
     
-    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+  
+
+<!-- Showcase -->
+
+<section class="bg-dark text-light p-3 text-center text-sm-start">
+
+    <!--- Start Navbar-->
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark">
         <div class="container">
-          <a class="navbar-brand" href="#">Edcel Caro</a>
+          <a class="navbar-brand" id="head-title" href="#">Edcel Caro</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto">
+            <ul class="navbar-nav ms-auto" style="font-size: 2em; color:#D6ED17FF; ">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Menu 1</a>
+                <a class="nav-link" href="#"><i class="fa-brands fa-linkedin"></i></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Menu 2</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Menu 3</a>
+                <a class="nav-link" href="#"><i class="fa-brands fa-square-behance"></i></a>
               </li>
 
             </ul>
@@ -32,20 +37,22 @@
         </div>
       </nav>
 
+      <!-- End Navbar -->
 
-<!-- Showcase -->
-
-<section class="bg-dark text-light p-5 text-center text-sm-start">
-    <div class="container">
+    <div class="container" id="hero">
         <div class="d-sm-flex align-items-center justify-content-between">
             <div>
-                <h1>Edcel Caro</h1>
-                <p class="lead">Graphic Designer | Front End Developer</p>
-                <p>Hiya! I am an aspiring graphic designer and web developer that have passion in designing logos, illustrations, websites, and arts. </p>
-<div style="font-size: 2.8em;">
+                <h1 id="title">Hi, I'm <span style="color:#D6ED17FF;">Edcel.</span></h1>
+                <p class="lead">An aspiring Graphic Designer and Front End Developer.</p>
+                <p>Welcome to my personal portfolio!</p>
+
+                <button type="button" class="btn btn-outline-success">Skils</button>
+                <button type="button" class="btn btn-outline-success">Projects</button>
+                <button type="button" class="btn btn-outline-success">About Me</button>
+<div style="font-size: 2.8em; color:#D6ED17FF;">
  
-    <i class="fa-brands fa-linkedin"></i>
-    <i class="fa-brands fa-square-behance"></i>
+   
+    
  
 </div>
             </div>

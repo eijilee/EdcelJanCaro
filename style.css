@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&family=Silkscreen&display=swap');
+
+#title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 4em;
+    letter-spacing: -1px;
+}
+#head-title{
+    font-family: 'Silkscreen', cursive;
+    font-size: 2em;
+}
+#hero {
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+
+.btn-outline-success {
+    color: #fff !important;
+    border-color: #D6ED17FF !important;
+  }
+  .btn-outline-success:hover {
+    color: #606060FF !important;
+    background-color: #D6ED17FF !important;
+  }
