@@ -9,16 +9,41 @@
     font-family: 'Silkscreen', cursive;
     font-size: 2em;
 }
+#skills {
+  font-family: 'Silkscreen', cursive;
+    font-size: 3em;
+    text-align: center;
+
+}
 #hero {
   padding-top: 50px;
   padding-bottom: 100px;
+
 }
 
 .btn-outline-success {
     color: #fff !important;
     border-color: #D6ED17FF !important;
+    
+    
   }
   .btn-outline-success:hover {
     color: #606060FF !important;
     background-color: #D6ED17FF !important;
   }
+  .btn-outline-success:focus {
+    color: #606060FF !important;
+    background-color: #D6ED17FF !important;
+    box-shadow: 0 0 10px #D6ED17FF !important;
+
+    
+  }
+  
+  #logo-skills {
+    width: 200px;
+    padding: 10px;
+    padding-top: 20px;
+    text-align: center;
+  }
+
+  
