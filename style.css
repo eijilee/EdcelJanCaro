@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&family=Silkscreen&display=swap');
-
+html{
+  scroll-behavior: smooth;
+}
 #title {
     font-family: 'Roboto', sans-serif;
     font-size: 4em;
@@ -13,7 +15,16 @@
   font-family: 'Silkscreen', cursive;
     font-size: 3em;
     text-align: center;
-
+}
+#projects {
+  font-family: 'Silkscreen', cursive;
+    font-size: 3em;
+    text-align: center;
+}
+#about-me {
+  font-family: 'Silkscreen', cursive;
+    font-size: 3em;
+    text-align: center;
 }
 #hero {
   padding-top: 50px;
@@ -47,7 +58,7 @@
   }
 
   #about {
-    background: linear-gradient(110deg, #D6ED17FF 60%, #606060FF 60%);
+    background: linear-gradient(110deg, #D6ED17FF 70%, #606060FF 30%);
   }
   .project-title {
     font-family: 'Roboto', sans-serif;
