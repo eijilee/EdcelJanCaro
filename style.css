@@ -58,7 +58,7 @@ html{
   }
 
   #about {
-    background: linear-gradient(110deg, #D6ED17FF 70%, #606060FF 30%);
+    background: #D6ED17FF;
   }
   .project-title {
     font-family: 'Roboto', sans-serif;

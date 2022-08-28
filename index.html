@@ -15,40 +15,42 @@
 <body>
 
 
-    <!--- Start Navbar-->
-    <nav class="navbar sticky-top navbar-expand-lg navbar-dark " style="position:fixed;">
-      <div class="container">
-        <a class="navbar-brand" id="head-title" href="#">Edcel Caro</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ms-auto" style="font-size: 2em; color:#D6ED17FF; ">
-            <li class="nav-item">
-              <a class="nav-link" href="https://www.linkedin.com/in/edcel-jan-caro-72013a240/"><i class="fa-brands fa-linkedin"></i></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="https://www.behance.net/edceljancaro"><i class="fa-brands fa-square-behance"></i></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#top"><i class="fa-solid fa-angle-up"></i></a>
-            </li>
+  <!--- Start Navbar-->
+  <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark ">
+    <div class="container">
+      <a class="navbar-brand" id="head-title" href="#">Edcel Caro</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto" style="font-size: 2em; color:#D6ED17FF; ">
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.linkedin.com/in/edcel-jan-caro-72013a240/"><i
+                class="fa-brands fa-linkedin"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.behance.net/edceljancaro"><i
+                class="fa-brands fa-square-behance"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#top"><i class="fa-solid fa-angle-up"></i></a>
+          </li>
 
-          </ul>
-        </div>
+        </ul>
       </div>
-    </nav>
-    <!-- End Navbar -->
+    </div>
+  </nav>
+  <!-- End Navbar -->
 
   <!-- Showcase -->
 
-  <section class="bg-dark text-light p-3 text-center text-sm-start" id="top">
+  <section class="bg-dark text-light p-3 text-center text-md-start" id="top">
 
 
     <div class="container" id="hero">
-      <div class="d-sm-flex align-items-center justify-content-center">
-        <div>
+      <div class="d-md-flex align-items-center justify-content-center">
+        <div class="pb-5">
           <h1 id="title">Hi, I'm <span style="color:#D6ED17FF;">Edcel!</span></h1>
           <p class="lead">An aspiring Graphic Designer and Front End Developer.</p>
           <p>Welcome to my personal portfolio!</p>
@@ -58,7 +60,7 @@
           <a type="button" href="#about-me" class="btn btn-outline-success">About Me</a>
 
         </div>
-        <img class="img-fluid w-50 d-none d-sm-block" src="assets/me.png" alt="">
+        <img class="img-fluid w-50 d-sm-block" style="min-width: 350px;"src="assets/me.png" alt="">
 
       </div>
     </div>
@@ -76,7 +78,6 @@
       <i class="fa-brands fa-html5"></i>
       <i class="fa-brands fa-css3-alt"></i>
       <i class="fa-brands fa-bootstrap"></i>
-      <i class="fa-brands fa-java"></i>
       <i class="fa-brands fa-github"></i>
     </div>
   </section>
@@ -147,27 +148,30 @@
 
 
 
-  <section class="bg-dark text-light pt-5 pb-1 text-center text-sm-start">
-    <div class="container" id="hero">
-      <div class="d-sm-flex align-items-center justify-content-center">
+  <section class="bg-dark text-light text-center text-sm-start py-5">
+    <div class="container">
+      <div class="d-sm-flex align-items-center justify-content-center pt-3 pb-5">
         <div class="mb-3">
-          <img class="img-fluid w-75"src="assets/dental/1.png "alt="">
+          <img class="img-fluid w-75" src="assets/dental/1.png " alt="">
         </div>
         <div class="mb-3">
           <h1 class="project-title">DENTALSEARCH</h1>
           <small>An Online Appointment and Patient Records
             Management System for Dental Clinics
-            </small>
+          </small>
           <p class="lead" style="word-wrap: break-word; max-width: 1280px; min-width: 100px;">
-            This is our group Capstone project in our graduating year. I am the head of the Front End development team of our group. Unfortunately, i only have screenshots of the system. In this system, dental clinics can register their clinics and manage their appointments and informtaion. Customers can register to our website and find clinics to appoint their dental needs.
+            This is our group Capstone project in our graduating year. I am the head of the Front End development team
+            of our group. Unfortunately, i only have screenshots of the system. In this system, dental clinics can
+            register their clinics and manage their appointments and informtaion. Customers can register to our website
+            and find clinics to appoint their dental needs.
           </p>
-          <a href="https://github.com/eijilee/Project-1" type="button" class="btn btn-outline-success">&lt;code&gt;</a>
+          <!--<a href="https://github.com/eijilee/Project-1" type="button" class="btn btn-outline-success">&lt;code&gt;</a>-->
         </div>
       </div>
     </div>
 
-    <div class="container" id="hero">
-      <div class="d-sm-flex align-items-center justify-content-center">
+    <div class="container">
+      <div class="d-sm-flex align-items-center justify-content-center pt-3 pb-5">
         <div class="mb-3">
           <img class="img-fluid w-75" src="assets/website.PNG" alt="">
         </div>
@@ -182,26 +186,27 @@
       </div>
     </div>
 
-    <div class="container " id="hero">
+    <div class="container pt-3 pb-5">
       <h1 class="project-title text-center">Logos</h1>
       <div class="container" style="word-wrap: break-word; max-width: 600px; min-width: 100px; text-align: center;">
-      <p class="lead pb-2">I started participating in #daiylogochallenge and the goal is to make logo everyday until day 50. They wil send you prompts and possible names to use it on your logo.</p></div>
+        <p class="lead pb-2">I started participating in #daiylogochallenge and the goal is to make logo everyday until
+          day 50. They wil send you prompts and possible names to use it on your logo.</p>
+      </div>
       <div class="d-sm-flex align-items-center justify-content-center">
-        
-        <div class="mb-5 text-center ">
+
+        <div class="mb-3 text-center ">
           <img class="img-fluid w-75" src="assets/logo1.png" alt="">
         </div>
-        <div class="mb-5 text-center">
+        <div class="mb-3 text-center">
           <img class="img-fluid w-75" src="assets/logo2.png" alt="">
         </div>
-        
-        <div class="mb-5 text-center">
+
+        <div class="mb-3 text-center">
           <img class="img-fluid w-75" src="assets/logo3.png" alt="">
         </div>
-        
-
       </div>
     </div>
+
   </section>
 
   <section class="text-light p-3 text-center" id="about">
@@ -239,20 +244,21 @@
   </section>
 
   <footer class="bg-dark text-light text-center">
-<div class="container py-5">
-  <h4>Contact Me</h4>
-  <p>
-    <i class="fa-solid fa-envelope pe-3"></i>edcel.jan.lee.caro@gmail.com<br>
-    <i class="fa-solid fa-phone pe-3"></i>0999-XXX-XXXX
-  </p>
-  <h4>Socials</h4>
-  <p>
-    <a href="https://www.facebook.com/edceel/"><i class="fa-brands fa-square-facebook" style="font-size:40px;"></i></a>
-    <a href="https://twitter.com/edcelcaro"><i class="fa-brands fa-square-twitter" style="font-size:40px;"></i></a>
-  </p>
+    <div class="container py-5">
+      <h4>Contact Me</h4>
+      <p>
+        <i class="fa-solid fa-envelope pe-3"></i>edcel.jan.lee.caro@gmail.com<br>
+        <i class="fa-solid fa-phone pe-3"></i>0999-XXX-XXXX
+      </p>
+      <h4>Socials</h4>
+      <p>
+        <a href="https://www.facebook.com/edceel/"><i class="fa-brands fa-square-facebook"
+            style="font-size:40px;"></i></a>
+        <a href="https://twitter.com/edcelcaro"><i class="fa-brands fa-square-twitter" style="font-size:40px;"></i></a>
+      </p>
 
-  <small>Created by Edcel Caro</small>
-</div>
+      <small>Created by Edcel Caro</small>
+    </div>
   </footer>
 
 
