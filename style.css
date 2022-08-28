@@ -46,4 +46,15 @@
     text-align: center;
   }
 
-  
+  #about {
+    background: linear-gradient(110deg, #D6ED17FF 60%, #606060FF 60%);
+  }
+  .project-title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2em;
+
+  }
+
+  #screenshot {
+    height: 300px;
+  }
